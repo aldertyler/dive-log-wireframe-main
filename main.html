@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML wireframe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+
+  <body>
+    <main role="main">
+      <header role="banner">
+        <h1>Dive Log</h1>
+      </header>
+
+      <section id="content">
+        <section id="dive-list" class="column">
+          <h2>Dives</h2>
+          <ul class="dives">
+            <li>Dive One</li>
+            <li>Dive Two</li>
+            <li>Dive Three</li>
+            <li>Dive Four</li>
+            <li>Dive Five</li>
+            <li>Dive Six</li>
+            <li>Dive Seven</li>
+            <li>Dive Eight</li>
+          </ul>
+          <button>Add New Dive</button>
+        </section>
+        <section id="selected-dive" class="column">
+          <h2>Dive Three</h2>
+          <table>
+            <tr>
+              <td>Date</td>
+              <td>01/01/2020</td>
+            </tr>
+            <tr>
+              <td>Location</td>
+              <td>Deception Pass</td>
+            </tr>
+            <tr>
+              <td>Start Time</td>
+              <td>13:00</td>
+            </tr>
+            <tr>
+              <td>End Time</td>
+              <td>14:00</td>
+            </tr>
+            <tr>
+              <td>Starting Pressure(psi)</td>
+              <td>3500</td>
+            </tr>
+            <tr>
+              <td>Ending Pressure(psi)</td>
+              <td>1000</td>
+            </tr>
+            <tr>
+              <td>Average Depth(ft)</td>
+              <td>50 ft</td>
+            </tr>
+            <tr>
+              <td>Tank Volume(cu ft</td>
+              <td>117</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td>Dive Time</td>
+              <td>60 Minutes</td>
+            </tr>
+            <tr>
+              <td>Gas Consumed</td>
+              <td>50.1 cu ft</td>
+            </tr>
+            <tr>
+              <td>SAC</td>
+              <td>9.9 PSI/min</td>
+            </tr>
+            <tr>
+              <td>RMV</td>
+              <td>0.332 cu ft/min</td>
+            </tr>
+          </table>
+          <textarea>Notes</textarea>
+        </section>
+      </section>
+    </main>
+    <footer role="content-info"></footer>
+  </body>
+</html>
